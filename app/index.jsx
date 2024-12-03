@@ -4,11 +4,15 @@ export default function Index() {
     return (
         <View
             style={{
-                flex: 1,
-                justifyContent: 'center',
-                alignItems: 'center'
+                flex: 1
             }}>
-            <Text>Edit screen.</Text>
+            <Text
+                style={{
+                    fontFamily: 'outfit-bold',
+                    fontSize: 40
+                }}>
+                Edit screen. Hekllo .
+            </Text>
         </View>
     );
 }
